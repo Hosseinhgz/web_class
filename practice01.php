@@ -14,7 +14,7 @@
         <!-- Bootstrap CSS -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
         <link href="landingpage-styling.css" rel="stylesheet">
-        <title>Hame Hotel contact</title>
+        <title>simple form</title>
         <style>
             .card-title{
                 background-color: #7E655A;
@@ -190,7 +190,7 @@
                 <div class="row">
                 </div>
                 <div class="contact-us">          
-                    <h1 class="contact-us"><br>Contact Us</h1>
+                    <h1 class="contact-us"><br>Complete Your Information</h1>
                     <p>___</p>
                 </div>
 

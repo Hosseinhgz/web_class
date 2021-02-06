@@ -5,13 +5,13 @@
     $ci= $_post["city"];
     $gi= $_post["group_id"];
 
-    $sql="insert into table personalinfo (first_name , Last_name , city , group_id)
-    values ($fn , $ln , $ci , $gi)" ;
+    $sql= "insert into personalinfo (first_name, last_name, city, group_id)
+    values ('$fn', '$ln', '$ci', '$gi') ";
     if ($conn->query($sql)===TRUE) {
         echo "New Record Added";
     }
     else{
-        echo "Error". sql ."<br>" .$conn->error;
+        echo "Error: ". sql ."<br>" .$conn->error;
     }
     $conn->close();
 ?>
